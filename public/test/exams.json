@@ -1,0 +1,202 @@
+{
+  "exams": [
+    {
+      "subject": "ภาษาไทย",
+      "duration": 40,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "คุณคิดว่าคำว่า 'สุริยา' มีความหมายว่าอะไร?",
+          "options": [
+            "ดวงอาทิตย์",
+            "ดวงจันทร์",
+            "ดวงดาว",
+            "ดวงอังคาร"
+          ],
+          "answer": "ดวงอาทิตย์",
+          "explanation": "คำว่า 'สุริยา' หมายถึงดวงอาทิตย์"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "คำว่า 'เรืองรอง' ใช้กับสถานการณ์ใดได้ดีที่สุด?",
+          "options": [
+            "ความสำเร็จ",
+            "ความเศร้า",
+            "ความโกรธ",
+            "ความงาม"
+          ],
+          "answer": "ความสำเร็จ",
+          "explanation": "คำว่า 'เรืองรอง' หมายถึงสิ่งที่เจริญรุ่งเรืองหรือประสบความสำเร็จ"
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "คำใดมีความหมายเหมือนกับ 'อุดมการณ์'?",
+          "options": [
+            "ความเชื่อ",
+            "ความฝัน",
+            "ความคิด",
+            "ความรัก"
+          ],
+          "answer": "ความเชื่อ",
+          "explanation": "คำว่า 'อุดมการณ์' หมายถึงความเชื่อหรือความตั้งใจที่แน่นอน"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "คำใดต่อไปนี้มีความหมายใกล้เคียงกับ 'เพียงพอ'?",
+          "options": [
+            "เต็มที่",
+            "พอใช้",
+            "มากมาย",
+            "เหมาะสม"
+          ],
+          "answer": "พอใช้",
+          "explanation": "คำว่า 'เพียงพอ' หมายถึงพอใช้ ไม่มากหรือน้อยเกินไป"
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "คำว่า 'บรรเทา' หมายถึงอะไร?",
+          "options": [
+            "ทำให้น้อยลง",
+            "ทำให้มากขึ้น",
+            "ทำให้ดีขึ้น",
+            "ทำให้เลวลง"
+          ],
+          "answer": "ทำให้น้อยลง",
+          "explanation": "คำว่า 'บรรเทา' หมายถึงการทำให้บางสิ่งบางอย่างน้อยลง"
+        }
+      ]
+    },
+    {
+      "subject": "คณิตศาสตร์",
+      "duration": 60,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "2 + 3 มีค่าเท่ากับเท่าไหร่?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "5",
+          "explanation": "ผลบวกของ 2 กับ 3 เท่ากับ 5"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "6 x 7 มีค่าเท่ากับเท่าไหร่?",
+          "options": [
+            "42",
+            "47",
+            "36",
+            "49"
+          ],
+          "answer": "42",
+          "explanation": "6 คูณกับ 7 ได้ผลลัพธ์เป็น 42"
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "ถ้า x = 2, แล้ว 2x + 3 มีค่าเท่ากับเท่าไหร่?",
+          "options": [
+            "5",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": "7",
+          "explanation": "เมื่อ x = 2, 2x + 3 จะมีค่าเป็น 4 + 3 ซึ่งเท่ากับ 7"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "ค่าเฉลี่ยของ 3, 5, 7, 9 คือเท่าไหร่?",
+          "options": [
+            "6",
+            "8",
+            "7",
+            "9"
+          ],
+          "answer": "6",
+          "explanation": "ค่าเฉลี่ยของตัวเลขเหล่านี้ (3+5+7+9)/4 เท่ากับ 6"
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "หาก a = 10 และ b = 5, แล้ว a/b เท่ากับเท่าไหร่?",
+          "options": [
+            "1",
+            "2",
+            "5",
+            "10"
+          ],
+          "answer": "2",
+          "explanation": "10 หารด้วย 5 เท่ากับ 2"
+        }
+      ]
+    },
+    {
+      "subject": "ภาษาอังกฤษ",
+      "duration": 50,
+      "questions": [
+        {
+          "questionNumber": 1,
+          "questionText": "What is the synonym of 'happy'?",
+          "options": [
+            "Sad",
+            "Joyful",
+            "Angry",
+            "Bored"
+          ],
+          "answer": "Joyful",
+          "explanation": "'Joyful' is a synonym for 'happy'"
+        },
+        {
+          "questionNumber": 2,
+          "questionText": "What is the past tense of 'go'?",
+          "options": [
+            "Go",
+            "Gone",
+            "Went",
+            "Going"
+          ],
+          "answer": "Went",
+          "explanation": "'Went' is the past tense of 'go'"
+        },
+        {
+          "questionNumber": 3,
+          "questionText": "Which word is an adjective?",
+          "options": [
+            "Quickly",
+            "Beautiful",
+            "Run",
+            "Loudly"
+          ],
+          "answer": "Beautiful",
+          "explanation": "'Beautiful' is an adjective describing something pleasing to the senses"
+        },
+        {
+          "questionNumber": 4,
+          "questionText": "What is the opposite of 'dark'?",
+          "options": [
+            "Black",
+            "Bright",
+            "Night",
+            "Light"
+          ],
+          "answer": "Bright",
+          "explanation": "'Bright' is the opposite of 'dark'"
+        },
+        {
+          "questionNumber": 5,
+          "questionText": "Which of these is a verb?",
+          "options": [
+            "Jump",
+            "Red",
+            "Fast",
+            "Big"
+          ],
+          "answer": "Jump",
+          "explanation": "'Jump' is a verb, meaning to push oneself off a surface and into the air"
+        }
+      ]
+    }
+  ]
+}
