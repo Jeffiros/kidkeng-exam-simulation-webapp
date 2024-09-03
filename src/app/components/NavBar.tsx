@@ -2,12 +2,29 @@
 import { useState } from "react"
 import Image from "next/image"
 
-export default function navBar (){
+export async function Search(){
+    let data = await fetch("https://dummyjson.com/products?limit=12")
+    if (!data.ok) {
+        throw new Error("cannot");
+      }
+      return data.json();
+}
+
+export default  function navBar (){
     const [serch,setSearch] = useState("")
     const [result,setResult]= useState([])
 
+    
+    // const roomfind = room.filter(
+    //     (room) =>
+    //       room.type.toLowerCase().includes(find.toLowerCase()) ||
+    //       room.bed_type.toLowerCase().includes(find.toLowerCase()) ||
+    //       room.room_id.includes(find) ||
+    //       room.status.toLowerCase().includes(find.toLowerCase())
+    //   );
+
     return(
-        <div className="flex justify-between bg-blue-100 py-[5px] w-full ">
+        <div className="flex justify-between bg-blue-100 py-[5px] w-full items-center">
             <input 
             type="text"
             placeholder="Search.."
