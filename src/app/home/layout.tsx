@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import type { Metadata } from 'next'
  
 // either Static metadata

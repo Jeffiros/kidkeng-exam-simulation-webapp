@@ -43,10 +43,7 @@ export default function Layout() {
 
   return (
     <>
-    <Head>
-      <title>hunter</title>
-    </Head>
-      <nav className="flex justify-between bg-red-100 py-[5px] w-full items-center">
+      <nav className="flex justify-between bg-red-100 py-[5px] w-full items-center sticky top-0 z-50">
         <input
           type="text"
           placeholder="Search.."
@@ -58,13 +55,13 @@ export default function Layout() {
           <button className="m-2 hover:bg-red-200 p-[10px]">Login</button>
           <button className="">Register</button>
         </div>
-      </nav>
-      <div className="flex flex-wrap bg-red-200">
+      </nav><div className="bg-red-200">
+      <div className="ml-6 grid grid-cols-4 gap-5">
         {filteredData.map((blogs, index) => {
           return (
-            <div className="border border-1 m-5 w-[300px] h-fit bg-white" key={index}>
+            <div className="hover:scale-105 hover:z-1 transition-all ease-in-out duration-100 shadow-lg border border-1 m-5 w-[300px] h-fit bg-white" key={index}>
               <Image
-                className="hover:bg-red-500"
+                className="hover:bg-red-500 hover:z-1"
                 src={blogs.thumbnail}
                 width={300}
                 height={300}
@@ -73,18 +70,19 @@ export default function Layout() {
               <ul>
                 <li className="p-2">ราคา : {blogs.price} บาท</li>
                 <li className="p-2">วิชา : {blogs.category}</li>
-                <li className="p-2">อาจารย์ : {blogs.title.slice(0,25)+ " ..."}</li>
+                <li className="p-2">อาจารย์ : {blogs.title.length>=25?blogs.title.slice(0,25)+ " ...":blogs.title}</li>
                 <li className="p-2">rating วิชา : {blogs.rating}</li>
                 <li className="p-2">อธิบายเพิ่มเติม : {blogs.description.slice(0,100)+" ..."}</li>
               </ul>
               <div className="flex justify-end m-2 ">
-              <Link href={"/course/"+blogs.id} className="bg-red-200 p-2 rounded-lg">More detail </Link>
+              <Link href={"/home/"+blogs.id} className="bg-red-200 p-2 rounded-lg">More detail </Link>
               </div>
               
             </div>
             
           );
         })}
+      </div>
       </div>
     </>
   );
